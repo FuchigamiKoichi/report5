@@ -1,13 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         String str;
-        str = null;
-        try{
-            System.out.println(str.length());
-    }catch(NullPointerException e){
-        System.out.println("null値が代入された変数を扱おうとしています！");
-        System.out.println("エラー : " + e.getMessage());
+        str = "壱百万";
+        int value = Integer.parseInt(str);
     }
-        }
-        
 }
